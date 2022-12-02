@@ -2,7 +2,7 @@
 # CS 445
 # Program 3: Fuzzy C Mean
 
-# This is a simple program that implements the fuzzy c means. The program will run the algorithm r times and record the
+# This is a simple program that implements the fuzzy c means algorithm. The program will run the algorithm r times and record the
 # sum square error for each run. Then it will choose the solution with the lowest sum square error to graph onto a 2-d
 # plot.
 
