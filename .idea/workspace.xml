@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e91b0535-5007-44ea-8752-67e25973f3da" name="Changes" comment="Fixed some comments">
+    <list default="true" id="e91b0535-5007-44ea-8752-67e25973f3da" name="Changes" comment="Minor changes with plotting">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -85,7 +86,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669954218796</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Minor changes with plotting">
+      <created>1669954595985</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1669954595985</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -104,6 +112,7 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="Finished" />
     <MESSAGE value="Fixed some comments" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed some comments" />
+    <MESSAGE value="Minor changes with plotting" />
+    <option name="LAST_COMMIT_MESSAGE" value="Minor changes with plotting" />
   </component>
 </project>
