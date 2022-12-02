@@ -2,9 +2,9 @@
 # CS 445
 # Program 3: Fuzzy C Mean
 
-# This is a simple program that implements the fuzzy c means algorithm. The program will run the algorithm r times and record the
-# sum square error for each run. Then it will choose the solution with the lowest sum square error to graph onto a 2-d
-# plot.
+# This is a simple program that implements the fuzzy c means algorithm. The program will run the algorithm r times and
+# record the sum square error for each run. Then it will choose the solution with the lowest sum square error to graph
+# onto a 2-d plot.
 
 import numpy as np
 import csv
@@ -24,13 +24,13 @@ data = np.array(list(np.float_(data)))
 n = data.shape
 
 
-# FCM class contains the fuzzy c means object, it will initially assign coefficients randomly to each data point for
+# FCM class contains the fuzzy c means algorithm, it will initially assign coefficients randomly to each data point for
 # being in the clusters. The algorithm is contained in the fit function, which starts off with computing the centroid
 # for each cluster, and updating the coefficients/membership grades for being in the cluster. This will loop until the
 # max iterations exceeds.
 class FCM:
     # Experiment with different k values
-    #c = 3
+    # c = 3
     # c = 5
     c = 10
     max_iter = 300
@@ -100,7 +100,7 @@ for i in range(r):
 i = np.argmin(sse_array)
 print(sse_array[i])
 plt.scatter(data[:, 0], data[:, 1], c="red")
-for c in i_centroid:
+for c in centroid_array[i]:
     plt.plot(c[0], c[1], '+', markersize=10)
 
 plt.show()
