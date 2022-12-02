@@ -30,9 +30,9 @@ n = data.shape
 # max iterations exceeds.
 class FCM:
     # Experiment with different k values
-    # c = 3
+    c = 3
     # c = 5
-    c = 10
+    # c = 10
     max_iter = 300
     n, m = data.shape
     fuzzy = 1.3
@@ -74,7 +74,7 @@ class FCM:
             iteration += 1
 
         # Calculate sum square error
-
+        distance = 0
         for i in range(self.c):
             distance = (data[:, :] - centroids[i]) ** 2
             distance = np.sum(distance, axis=1)
